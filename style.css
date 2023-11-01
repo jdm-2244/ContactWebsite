@@ -1,3 +1,4 @@
+
 head{
     align-items: center;
 }
@@ -82,4 +83,29 @@ transform: scale(1.02);
     margin: 4px 8px;
     width: 44px;
     height: 44px;
+}
+@media only screen and (max-device-width: 480px) {
+    div#wrapper {
+        width: 400px;
+    }
+
+    div#header {
+        background-image: url(media-queries-phone.jpg);
+        height: 93px;
+        position: relative;
+    }
+
+    div#header  {
+        font-size: 140%;
+    }
+
+    #tile {
+        float: none;
+        width: 100%;
+    }
+
+    #container {
+        float:none;
+        width: auto;
+    }
 }
